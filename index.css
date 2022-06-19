@@ -1,0 +1,77 @@
+body{
+    background-color: aliceblue;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+
+}
+main{
+    background-color: aqua;
+    max-width: 1900px ;
+    width: 80vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 3rem 2rem;
+    margin: auto;
+
+}
+.side_text{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+.side-text-top{
+    font-size: 2.7rem;
+    font-weight: 700;
+}
+
+.form_holder{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+.form-top-text{
+    background-color: blueviolet;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 8px 5px;
+    border-radius: 5px;
+    color: white;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    padding: 2rem 1.5rem;
+}
+form input{
+    margin-top: 15px;
+    height: 2rem;
+    font-size: 1.1rem;
+    padding: 3px 15px;
+    border: 1px solid rgb(207, 205, 205);
+    border-radius:5px;
+}
+form input:focus{
+    outline: none;
+    border: 1px solid rgb(114, 114, 114);
+}
+
+.btn{
+    background-color: rgb(5, 185, 5);
+    border-radius: 5px;
+    border:1px solid rgb(3, 148, 3) ;
+}
+footer a{
+    color: red;
+    text-decoration: none;
+}
+footer a:hover{
+    color: rgb(151, 4, 4);
+}
